@@ -1,0 +1,155 @@
+/*login.css*/
+body, h1, h2, p, ul, li 
+{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(/src/assets/images/8.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #f2f2f2; /* Fallback background color */
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #444444;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  opacity: 0.97;
+}
+
+header h1 {
+  font-size: 1rem;
+  /* text-shadow: 0px 0px 1px #a1918c, 0px 0px 1px #d39393, 0px 0px 1px #89aaac,
+    0px 0px 3px #d39a93; */
+    color: rgb(255, 234, 0);
+}
+
+.main-container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  background-color: #f0f0f0;
+  border-radius: 70px;
+  box-shadow: 0px 0px 10px rgb(45, 45, 45);
+  padding: 2rem;
+  width: 300px;
+  margin: 2rem auto;
+  margin-top: 6.9rem;
+  opacity: 0.92;
+  margin-top: 5%;
+}
+
+.login-container h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.25rem;
+  
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  background-color: rgb(0, 21, 255);
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 0.5rem 1rem;
+  
+  cursor: pointer;
+}
+
+button:hover {
+  background-color:rgb(52, 51, 51);
+}
+
+footer {
+  position: fixed;
+   bottom: 0;
+   width: 100%;
+   height: 20px;
+   background-color: #444444;
+   text-align: center;
+   padding: 1.5rem 0;
+   color: #fff;
+   opacity: 0.97;
+}
+
+/* CSS (You can add this to your stylesheet or CSS-in-JS) */
+.link-separator {
+  margin: 0 10px; /* Adjust the margin to control the space between the links */
+  color: #777; /* Set the color of the separator */
+}
+
+
+/* Add this to footer.css */
+.footer-text {
+  position: absolute;
+  bottom: 20px;
+  
+  left: 20px;
+}
+
+.social-icons {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin-right: 1rem; /* Adjust spacing between icons */
+}
+
+/* Style the social media icon images */
+.social-icons img {
+  width: 27px; /* Set the width of the icons */
+  height: 27px; /* Set the height of the icons */
+  border-radius: 50%; /* Make them circular */
+  transition: transform 0.2s ease-in-out; /* Add a subtle hover effect */
+  
+}
+
+/* Change the icon color on hover */
+.social-icons a:hover img {
+  transform: scale(1.2); /* Increase the size on hover */
+}
+
+.login-container p {
+  margin-top: 15px;
+}
+.vvd
+{
+  font-style: bold;
+}
+.register-here
+{
+color:blue;
+cursor: pointer;
+}
